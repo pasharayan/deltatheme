@@ -1,4 +1,6 @@
 
+
+
 .homepage {
 
   .hero-area {
@@ -11,5 +13,20 @@
   h1 {
     // font-size: 200px !important;
     font-weight: 800;
+  }
+
+  .cta-area {
+    margin: 20px 0;
+  }
+
+  .white-panel {
+    padding: 110px 0;
+
+  }
+
+  .colored-panel {
+    background-color: rgb(29, 82, 126);
+    color: white;
+    padding: 110px 0;
   }
 }
