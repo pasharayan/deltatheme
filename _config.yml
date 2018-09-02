@@ -1,20 +1,6 @@
 ---
 title: Delta Education
 timezone: UTC
-
-sass:
-  load_paths:
-    - _sass
-    - node_modules
-exclude:
-  - node_modules
-  - LICENSE
-  - Makefile
-  - README.md
-  - package.json
-  - package-lock.json
-  - yarn.lock
-
 collections:
   posts:
     title: Posts
@@ -34,4 +20,16 @@ defaults:
     type: pages
   values:
     layout: page
+sass:
+  load_paths:
+  - _sass
+  - node_modules
+exclude:
+- node_modules
+- LICENSE
+- Makefile
+- README.md
+- package.json
+- package-lock.json
+- yarn.lock
 permalink: pretty
