@@ -1,6 +1,3 @@
-
-
-
 .homepage {
 
   .hero-area {
@@ -8,6 +5,15 @@
     color: white;
     padding: 10px 0 110px;
     font-weight: 300;
+    height: 90vh;
+  }
+
+  .vertical-container {
+    vertical-align: middle;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
   }
 
   h1 {
@@ -39,6 +45,6 @@
   color: white;
   a {
     color: white;
-    
+
   }
 }
