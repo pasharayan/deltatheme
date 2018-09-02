@@ -5,11 +5,3 @@
 @import "bootstrap/scss/bootstrap";
 @import "index";
 @import "shared";
-
-.content {
-    font-size: $custom-font-size; //using custom variable
-}
-
-.primarycolor{
-    color: $primary; //using Bootstrap variable
-}
