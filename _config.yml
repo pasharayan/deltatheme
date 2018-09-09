@@ -27,8 +27,8 @@ defaults:
   values:
     layout: page
 - scope:
-    path: tutors
-    type: pages
+    path: ''
+    type: tutors
   values:
     headline: Place State Ranking Here
     atar: Place Atar message here

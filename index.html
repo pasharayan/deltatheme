@@ -141,7 +141,10 @@ layout: default
       <div class="row">
         {% for tutor in site.tutors %}
           <div class="col-md-6 col-sm-12 col-xs-12">
-            <div class="tutor-card">
+            <div class="tutor-card" style="
+            background: linear-gradient(90deg, rgba(14,60,99,0.7),rgba(0,0,0,0.0)),url('{{tutor.tutorimage}}') no-repeat center center;
+
+            ">
               <div class="row">
                 <div class="col-7">
                   <div class="vertical-container-standard">
