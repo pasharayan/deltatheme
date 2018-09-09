@@ -27,13 +27,12 @@ defaults:
   values:
     layout: page
 - scope:
-    path: "tutors"
-    type: "pages"
+    path: tutors
+    type: pages
   values:
-    headline: 'Place State Ranking Here'
-    atar: 'Place Atar message here'
-    quick_text: 'Add compelling facts here'
-
+    headline: Place State Ranking Here
+    atar: Place Atar message here
+    quick_text: Add compelling facts here
 sass:
   load_paths:
   - _sass
