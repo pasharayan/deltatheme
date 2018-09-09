@@ -19,25 +19,33 @@ layout: default
   <div class="blade">
     <div class="container">
       <div class="row">
-        <div class="col-6">
-          <div class="tutor-card">
-            <div class="row">
-              <div class="col">
-                no text ehre
-              </div>
-              <div class="col">
-                <div class="tutor-name">
-                  Jane
+        {% for tutor in site.tutors %}
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="tutor-card">
+              <div class="row">
+                <div class="col-7">
+                  <div class="vertical-container-standard">
+                    <img src="https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/Delta+Education+Logo/White+vers/Delta_Symbol_icon_WHITE.png" height="40px" width="32px">
+                    <div class="tutor-name">
+                      {{tutor.title}}
+                    </div>
+                    <div class="degree">
+                      {{tutor.headline}}
+                      <br/>ATAR 99.50
+                    </div>
+                    <div class="tutor-accomplishments">
+                      <br/>Bachelor of Arts/Bachelor of Education University of Sydney
+                      <br/>19th in NSW English Advanced
+                      <br/>Michael Orange Prize in English Literature (USYD)
+                    </div>
+                  </div>
                 </div>
-                <div class="tutor-accomplishments">
-                  <ul>
-                    <li>Ranked 5th in State</li>
-                  </ul>
+                <div class="col">
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        {% endfor %}
       </div>
     </div>
   </div>

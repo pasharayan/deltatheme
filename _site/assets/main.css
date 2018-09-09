@@ -6909,7 +6909,8 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  margin-bottom: 30px; }
 .state-ranking-teachers .navbar {
   width: 100%; }
 
