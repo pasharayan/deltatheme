@@ -1,3 +1,9 @@
+
+body {
+  // font-family: "Gill Sans" !important;
+
+}
+
 .homepage {
   .hero-area {
     background-color: rgb(29, 82, 126);
@@ -49,7 +55,30 @@
 
     .heading-panel {
       margin: 50px 0 20px;
+
+
+      .selector-section {
+
+        margin: 20px 0;
+        border-top: 1px dashed #e1e1e3;
+        .selector {
+          -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+          padding: 20px 0;
+          border-bottom: 1px dashed #e1e1e3;
+        }
+
+        .selector:hover {
+          color: #007bff;
+          cursor: pointer;
+          padding-left: 10px;
+        }
+      }
     }
+
+
 
     .informative {
       font-size: 14px;
@@ -127,10 +156,10 @@
   font-size: 13px;
   height: 300px;
   font-weight: 300;
-  -webkit-transition: all 0.1s linear;
-  -moz-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  transition: all 0.1s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
   .tutor-name {
     font-size: 25px;
     font-weight: 800;
@@ -163,12 +192,11 @@
 
   .testimonial-square {
     padding: 40px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .testimonial-subtext {
     font-size: 15px;
-    
   }
 }
 
@@ -259,5 +287,30 @@
 
   .navbar {
     width: 100%;
+  }
+
+  .blade {
+    padding: 30px 0;
+    font-weight: 300;
+
+    .benefit-image {
+      width: 80px;
+    }
+
+    .pre-header {
+      margin: 10px 0;
+      color: grey;
+    }
+
+    .benefit-item {
+      margin: 30px 0;
+    }
+
+    .benefit-text {
+      h3 {
+        font-weight: 800;
+        margin: 0;
+      }
+    }
   }
 }
