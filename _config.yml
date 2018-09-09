@@ -11,9 +11,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  headlines:
-    title: headlines
-    output: true
 defaults:
 - scope:
     path: ''
@@ -33,6 +30,7 @@ defaults:
     headline: Place State Ranking Here
     atar: Place Atar message here
     quick_text: Add compelling facts here
+    tutorimage: /uploads/ruBPRYpA.jpeg
 sass:
   load_paths:
   - _sass
