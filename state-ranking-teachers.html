@@ -21,7 +21,10 @@ layout: default
       <div class="row">
         {% for tutor in site.tutors %}
           <div class="col-md-6 col-sm-12 col-xs-12">
-            <div class="tutor-card">
+            <div class="tutor-card" style="
+            background: linear-gradient(90deg, rgba(14,60,99,1),rgba(0,0,0,0.0)),url('{{tutor.tutorimage}}') no-repeat center center;
+
+            ">
               <div class="row">
                 <div class="col-7">
                   <div class="vertical-container-standard">
@@ -31,12 +34,10 @@ layout: default
                     </div>
                     <div class="degree">
                       {{tutor.headline}}
-                      <br/>ATAR 99.50
+                      <br/>{{tutor.atar}}
                     </div>
                     <div class="tutor-accomplishments">
-                      <br/>Bachelor of Arts/Bachelor of Education University of Sydney
-                      <br/>19th in NSW English Advanced
-                      <br/>Michael Orange Prize in English Literature (USYD)
+                      {{tutor.quick_text}}
                     </div>
                   </div>
                 </div>

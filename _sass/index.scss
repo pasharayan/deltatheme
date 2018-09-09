@@ -7,6 +7,7 @@
     height: 95vh;
     min-height: 700px;
     position: relative;
+    font-size: 23px;
 
     background: #24334F url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta_bg_full.jpg') no-repeat center 80%;
     -webkit-background-size: cover;
@@ -114,14 +115,7 @@
 }
 
 .tutor-card {
-  // background: #24334F url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/Xpp_GrMA.jpeg') no-repeat 0 0%;
-
-  // background: #24334F;
-  // background-image: url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/Xpp_GrMA.jpeg'); /* fallback */
-  // background-image: url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/Xpp_GrMA.jpeg'), linear-gradient(#eb01a5, #d13531); /* W3C */
-   // background: url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/Xpp_GrMA.jpeg') no-repeat left top, linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
-
-  background: linear-gradient(90deg, rgba(14,60,99,0.7),rgba(0,0,0,0.0)),url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/Xpp_GrMA.jpeg') no-repeat center center;
+  background: linear-gradient(90deg, rgba(14, 60, 99, 0.7), rgba(0, 0, 0, 0.0)), url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/Xpp_GrMA.jpeg') no-repeat center center;
   color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -133,7 +127,10 @@
   font-size: 13px;
   height: 300px;
   font-weight: 300;
-
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
   .tutor-name {
     font-size: 25px;
     font-weight: 800;
@@ -151,10 +148,28 @@
   }
 }
 
+.tutor-card:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05)
+}
+
 .testimonial-panel {
   background: #24334F url('https://images.unsplash.com/photo-1505766358654-db278b02c108?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=515fe66253154a5dc0c7fa55a7b0b20d&auto=format&fit=crop&w=1955&q=80') no-repeat center 60% !important;
-  height: 450px;
+  min-height: 450px;
   color: white;
+
+  .testimonial-square {
+    padding: 40px;
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  .testimonial-subtext {
+    font-size: 15px;
+    
+  }
 }
 
 .footer {
@@ -184,12 +199,17 @@
     height: 60vh;
     min-height: 500px;
     position: relative;
-    background: #24334F url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta_bg_full.jpg') no-repeat center 80%;
+    background: #24334F url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta_bg_full.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     margin-bottom: 30px;
+    font-size: 23px;
+
+    h1 {
+      font-weight: 800;
+    }
   }
 
   .navbar {
@@ -213,4 +233,31 @@
   flex-direction: column;
   justify-content: center; // position:relative;
   //
+}
+
+
+.tuition-at-delta {
+  .tuition-hero {
+    background-color: rgb(29, 82, 126);
+    color: white;
+    padding: 10px 0 110px;
+    font-weight: 300;
+    height: 60vh;
+    min-height: 500px;
+    position: relative;
+    background: #24334F url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/tuition2.png') no-repeat center 80%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 30px;
+    font-size: 23px;
+    h1 {
+      font-weight: 800;
+    }
+  }
+
+  .navbar {
+    width: 100%;
+  }
 }

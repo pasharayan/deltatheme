@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="homepage">
   <!-- Hero Area [Panel 1] -->
   <div class="hero-area">
@@ -132,40 +131,44 @@ layout: default
         <div class="col">
           <h1>State ranking teachers</h1>
           <div class="secondary">
-            We've carefully designed our course to cater to every possible need of an HSC English (Advanced) student
-            <br/>[Will have different teaching image as bg]
+            <p>
+              Our staff members are the most qualified of any tutoring company in NSW. All teachers and markers at Delta hold, without exception, either a NSW state rank and/or a 99.95 ATAR.
+            </p>
+            <p>
+              More importantly, we only ever choose and retain teachers who are inspirational and demonstrate exemplary leadership and teaching ability.
+            </p>
           </div>
           <br/>
         </div>
       </div>
       <div class="row">
         {% for tutor in site.tutors %}
-          <div class="col-md-6 col-sm-12 col-xs-12">
-            <div class="tutor-card" style="
-            background: linear-gradient(90deg, rgba(14,60,99,0.7),rgba(0,0,0,0.0)),url('{{tutor.tutorimage}}') no-repeat center center;
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="tutor-card" style="
+            background: linear-gradient(90deg, rgba(14,60,99,1),rgba(0,0,0,0.0)),url('{{tutor.tutorimage}}') no-repeat center center;
 
             ">
-              <div class="row">
-                <div class="col-7">
-                  <div class="vertical-container-standard">
-                    <img src="https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/Delta+Education+Logo/White+vers/Delta_Symbol_icon_WHITE.png" height="40px" width="32px">
-                    <div class="tutor-name">
-                      {{tutor.title}}
-                    </div>
-                    <div class="degree">
-                      {{tutor.headline}}
-                      <br/>{{tutor.atar}}
-                    </div>
-                    <div class="tutor-accomplishments">
-                      {{tutor.quick_text}}
-                    </div>
+            <div class="row">
+              <div class="col-7">
+                <div class="vertical-container-standard">
+                  <img src="https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/Delta+Education+Logo/White+vers/Delta_Symbol_icon_WHITE.png" height="40px" width="32px">
+                  <div class="tutor-name">
+                    {{tutor.title}}
+                  </div>
+                  <div class="degree">
+                    {{tutor.headline}}
+                    <br/>{{tutor.atar}}
+                  </div>
+                  <div class="tutor-accomplishments">
+                    {{tutor.quick_text}}
                   </div>
                 </div>
-                <div class="col">
-                </div>
+              </div>
+              <div class="col">
               </div>
             </div>
           </div>
+        </div>
         {% endfor %}
       </div>
     </div>
@@ -176,11 +179,21 @@ layout: default
       <div class="row">
         <div class="col-6">
           <div class="testimonial-square">
-          </div>
-          <h1>Testimonial</h1>
-          <div class="secondary">
-            We've carefully designed our course to cater to every possible need of an HSC English (Advanced) student
-            <br/>[Will have different teaching image as bg]
+            <h2>
+              Student
+              <br/>Testimonial
+            </h2>
+            <div class="secondary">
+              <p>
+              "Everyone here at Delta strives to go above and beyond for our students. If you are having any challenges or difficulties, our talented staff will provide advice on assessment tasks and English as a whole beyond the weekly classes, 1-on-1s and EPPs."
+              </p>
+              <div class="testimonial-subtext">
+                <br/> Janet Leigh
+              <br/>Student at Selective High School
+              <br/>ATAR: 99.95 - Currently studying law and commerce at UNSW
+              </div>
+              
+            </div>
           </div>
         </div>
       </div>

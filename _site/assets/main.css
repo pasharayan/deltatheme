@@ -6789,6 +6789,7 @@ a.text-dark:hover, a.text-dark:focus {
   height: 95vh;
   min-height: 700px;
   position: relative;
+  font-size: 23px;
   background: #24334F url("https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta_bg_full.jpg") no-repeat center 80%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -6869,7 +6870,11 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 15px;
   font-size: 13px;
   height: 300px;
-  font-weight: 300; }
+  font-weight: 300;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear; }
   .tutor-card .tutor-name {
     font-size: 25px;
     font-weight: 800; }
@@ -6878,10 +6883,22 @@ a.text-dark:hover, a.text-dark:focus {
   .tutor-card .tutor-accomplishments ul {
     margin: 0; }
 
+.tutor-card:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05); }
+
 .testimonial-panel {
   background: #24334F url("https://images.unsplash.com/photo-1505766358654-db278b02c108?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=515fe66253154a5dc0c7fa55a7b0b20d&auto=format&fit=crop&w=1955&q=80") no-repeat center 60% !important;
-  height: 450px;
+  min-height: 450px;
   color: white; }
+  .testimonial-panel .testimonial-square {
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .testimonial-panel .testimonial-subtext {
+    font-size: 15px; }
 
 .footer {
   padding: 40px 0 60px;
@@ -6905,12 +6922,15 @@ a.text-dark:hover, a.text-dark:focus {
   height: 60vh;
   min-height: 500px;
   position: relative;
-  background: #24334F url("https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta_bg_full.jpg") no-repeat center 80%;
+  background: #24334F url("https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta_bg_full.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-size: 23px; }
+  .state-ranking-teachers .state-hero h1 {
+    font-weight: 800; }
 .state-ranking-teachers .navbar {
   width: 100%; }
 
@@ -6927,6 +6947,26 @@ a.text-dark:hover, a.text-dark:focus {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+
+.tuition-at-delta .tuition-hero {
+  background-color: #1d527e;
+  color: white;
+  padding: 10px 0 110px;
+  font-weight: 300;
+  height: 60vh;
+  min-height: 500px;
+  position: relative;
+  background: #24334F url("https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/tuition2.png") no-repeat center 80%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 30px;
+  font-size: 23px; }
+  .tuition-at-delta .tuition-hero h1 {
+    font-weight: 800; }
+.tuition-at-delta .navbar {
+  width: 100%; }
 
 .center {
   text-align: center; }
