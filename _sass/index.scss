@@ -227,7 +227,7 @@ body {
     height: 60vh;
     min-height: 500px;
     position: relative;
-    background: #24334F url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta_bg_full.jpg') no-repeat center center;
+    background: #24334F url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/tutors.png') no-repeat center 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -312,5 +312,33 @@ body {
         margin: 0;
       }
     }
+  }
+}
+
+.contact-us {
+
+  .contact-us-hero {
+    background-color: rgb(29, 82, 126);
+    color: white;
+    padding: 10px 0 110px;
+    font-weight: 300;
+    height: 60vh;
+    min-height: 500px;
+    position: relative;
+    background: #24334F url('https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/contactus.png') no-repeat center 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 30px;
+    font-size: 23px;
+
+    h1 {
+      font-weight: 800;
+    }
+  }
+
+  .navbar {
+    width: 100%;
   }
 }

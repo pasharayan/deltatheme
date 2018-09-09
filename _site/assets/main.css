@@ -6936,7 +6936,7 @@ a.text-dark:hover, a.text-dark:focus {
   height: 60vh;
   min-height: 500px;
   position: relative;
-  background: #24334F url("https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta_bg_full.jpg") no-repeat center center;
+  background: #24334F url("https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/tutors.png") no-repeat center 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6994,6 +6994,26 @@ a.text-dark:hover, a.text-dark:focus {
   .tuition-at-delta .blade .benefit-text h3 {
     font-weight: 800;
     margin: 0; }
+
+.contact-us .contact-us-hero {
+  background-color: #1d527e;
+  color: white;
+  padding: 10px 0 110px;
+  font-weight: 300;
+  height: 60vh;
+  min-height: 500px;
+  position: relative;
+  background: #24334F url("https://s3-ap-southeast-2.amazonaws.com/staticassetspasha/delta/photos/contactus.png") no-repeat center 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 30px;
+  font-size: 23px; }
+  .contact-us .contact-us-hero h1 {
+    font-weight: 800; }
+.contact-us .navbar {
+  width: 100%; }
 
 .center {
   text-align: center; }
